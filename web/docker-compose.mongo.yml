@@ -1,0 +1,13 @@
+# Convenience: a MongoDB instance for the web bridge.
+# Run from the web/ folder:  docker compose -f docker-compose.mongo.yml up -d
+services:
+  mongo:
+    image: mongo:7
+    container_name: ipc-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ipc-mongo-data:/data/db
+
+volumes:
+  ipc-mongo-data:

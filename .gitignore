@@ -1,0 +1,21 @@
+# Java / Maven
+target/
+*.class
+*.log
+
+# Editors / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Node (web layer)
+node_modules/
+web/**/node_modules/
+web/**/dist/
+.env
+web/**/.env
+
+# Accidentally-committed JDK (do not track a 370MB JDK in source)
+**/oracleJdk-*.jdk/
+src/main/java/com/example/ipc/oracleJdk-26.jdk/
