@@ -1,4 +1,4 @@
-# Kafka IPC — Interprocess Communication with Apache Kafka
+# Kafka Topic IPC — Interprocess Communication with Apache Kafka
 
 A hands-on project that implements **Interprocess Communication (IPC)** between distributed
 processes using **Apache Kafka** for real-time data streaming. Independent producer and
